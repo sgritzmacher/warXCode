@@ -44,17 +44,13 @@ int main()
         case g_playGame:
         {
             
-            //looking off the guessing game
-            //number of players in the for loop (here to gather a name) and declare the array atop,
-            //another for loop inside for presenting the name of the turn
-            //number of players for loop is a short curly bracket in front of any other activity.
+            
         
             for(int i = 0; i < numberOfPlayers; i++)
             {
                 cout << "please enter your name: " << endl;
                 cin >> playerNames[i];
-                //declare at top numberOfPlayers and playerNames[i]
-            
+               
             }
             
             
